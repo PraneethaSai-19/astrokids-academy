@@ -35,7 +35,8 @@ app = FastAPI(
     title=settings.app_name,
     version="1.0.0",
     description="Backend for Junior Astronaut Mission Trainer (AstroKids Academy). "
-                "Rewards are computed on the server; the browser never sends XP values.",
+                "Rewards are computed on the server; the browser never sends XP values. "
+                "SI disclosure: this code was generated with an AI coding assistant (Claude Code).",
     lifespan=lifespan,
 )
 
