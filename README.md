@@ -11,6 +11,44 @@ SQLite (default) or MySQL 8 | Argon2 + JWT | ReportLab | pytest + Vitest.
 
 ---
 
+## Screenshots
+
+Real screenshots of the running app (demo data, captured automatically).
+
+### Getting started
+| Welcome screen | Parent sign-up |
+|:--:|:--:|
+| ![Splash screen](docs/screenshots/01-splash.png) | ![Parent sign-up](docs/screenshots/02-parent-signup.png) |
+| **Astronaut avatar creator** | **Home dashboard** |
+| ![Avatar creator](docs/screenshots/03-avatar-creator.png) | ![Dashboard](docs/screenshots/04-dashboard.png) |
+
+### Explore with NASA data
+| NASA picture on the home page | 3D solar system with planet facts |
+|:--:|:--:|
+| ![NASA space picture](docs/screenshots/05-nasa-picture.png) | ![3D solar system](docs/screenshots/06-solar-system-3d.png) |
+
+### Astronaut training missions
+| Mission list and quizzes | How to play |
+|:--:|:--:|
+| ![Missions](docs/screenshots/07-missions.png) | ![Mission instructions](docs/screenshots/08-mission-instructions.png) |
+| **Zero Gravity Challenge** | **Space Equipment Expert (drag and drop)** |
+| ![Zero gravity](docs/screenshots/09-zero-gravity-game.png) | ![Equipment expert](docs/screenshots/10-equipment-expert.png) |
+| **Space Navigation** | **Moon Landing** |
+| ![Space navigation](docs/screenshots/11-space-navigation.png) | ![Moon landing](docs/screenshots/12-moon-landing.png) |
+| **Space Emergency Rescue** | **Rocket Lab** |
+| ![Emergency rescue](docs/screenshots/13-emergency-rescue.png) | ![Rocket lab](docs/screenshots/14-rocket-lab.png) |
+
+### AI helper, rewards and certificate
+| AstroBot (demo mode, curated answers) | Trophy room |
+|:--:|:--:|
+| ![AstroBot](docs/screenshots/15-astrobot.png) | ![Achievements](docs/screenshots/18-achievements.png) |
+| **Junior Astronaut certificate** | **Parent dashboard** |
+| ![Certificate](docs/screenshots/19-certificate.png) | ![Parent dashboard](docs/screenshots/20-parent-dashboard.png) |
+| **Parent controls for AstroBot** | **On a phone** |
+| ![Parent AI controls](docs/screenshots/21-parent-ai-controls.png) | <img src="docs/screenshots/16-mobile-home.png" width="200" alt="Mobile home"> <img src="docs/screenshots/17-mobile-missions.png" width="200" alt="Mobile missions"> |
+
+---
+
 ## 1. Quick start on Windows (about 10 minutes)
 
 ### Prerequisites
