@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --navy:#101C3D; --purple:#C99BFA; --blue:#66CDEB; --yellow:#FFCB69; --pink:#FFB8D0; --mint:#A8E6CF; }
+
+html, body, #root { min-height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Nunito', 'Poppins', system-ui, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background: #101C3D;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-lg font-extrabold
+           transition active:translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/60
+           disabled:opacity-50 disabled:cursor-not-allowed select-none;
+    min-height: 48px;
+  }
+  .btn-yellow { @apply bg-star text-navy shadow-chunky hover:brightness-105; }
+  .btn-purple { @apply bg-galaxy text-navy shadow-chunky hover:brightness-105; }
+  .btn-blue   { @apply bg-planet text-navy shadow-chunky hover:brightness-105; }
+  .btn-mint   { @apply bg-mint text-navy shadow-chunky hover:brightness-105; }
+  .btn-pink   { @apply bg-blush text-navy shadow-chunky hover:brightness-105; }
+  .btn-ghost  { @apply bg-white/10 text-white border-2 border-white/30 hover:bg-white/20; }
+  .card {
+    @apply rounded-3xl border-2 border-white/15 bg-white/10 backdrop-blur-md p-5 shadow-glow;
+  }
+  .input {
+    @apply w-full rounded-2xl bg-white text-navy px-4 py-3 text-lg font-bold placeholder:text-navy/40
+           focus:outline-none focus:ring-4 focus:ring-planet/70;
+  }
+  .label { @apply mb-1 block text-base font-extrabold text-planet; }
+}
+
+.stars-bg {
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(201,155,250,.28), transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(102,205,235,.22), transparent 55%),
+    linear-gradient(180deg, #101C3D 0%, #0A1230 100%);
+}
+.touch-none-game { touch-action: none; user-select: none; -webkit-user-select: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }

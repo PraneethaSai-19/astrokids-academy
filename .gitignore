@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Secrets and local data
+.env
+backend/.env
+*.db
+*.sqlite3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+nasa_cache.json
+
+# Packaged downloads
+*.zip
